@@ -1,0 +1,22 @@
+.outer{
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: 5px;
+    display: inline-block;
+    overflow: scroll;
+    border-radius: 10px 30px 50px;
+}
+#inner{
+    height: 200px;
+    width: 200px;
+    /* border-left:greenyellow ;
+    border-right:blue;
+    border-bottom: pink;
+    border-top: black; */
+    border-width: 5px;
+    border-style: solid;
+    overflow: scroll;
+    border-color: blue pink greenyellow;
+}
