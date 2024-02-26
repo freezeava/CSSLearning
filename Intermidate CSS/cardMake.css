@@ -1,9 +1,11 @@
 div{
     height: 400px;
     width: 200px;
-    background-color: rgb(221, 214, 205);
+    background-color: rgb(177, 202, 213);
     display: inline-block;
     margin: 5px;
+    border: 2px solid black;
+    transition: 1s;
 }
 
 
@@ -21,4 +23,7 @@ div{
 }
 div:hover{
     transform:scale(1.2) ;
+}
+div:hover{
+    box-shadow: 3px 3px 10px rgb(165, 206, 16);
 }
