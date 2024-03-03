@@ -1,0 +1,43 @@
+#outer{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(17, 17, 16);
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns:100px 100px 100px 100px ; */
+    text-align: center;
+
+    grid-template-rows: repeat(3,2fr);
+    grid-template-columns: repeat(3,1fr);
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    /* or  grid-gap: 30px 30px;*/
+   
+    
+   
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(16, 199, 13);
+    border: 2px solid olive;
+}
+
+#one{
+
+    grid-column-start: 1;
+    grid-column-end: 3
+    
+}
+
+/* #five{
+    grid-row-start: 3;
+    grid-row-end: 5;
+} */
+
+#three{
+    grid-row-start: 1;
+    grid-row-end: 5;            
+    
+}

@@ -1,0 +1,13 @@
+#outer{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(16, 21, 19);
+    display:grid
+}
+.item{
+    height: 50px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 5px solid black;
+    text-align: center;
+}
